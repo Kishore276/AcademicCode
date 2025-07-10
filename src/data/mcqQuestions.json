@@ -1,0 +1,61 @@
+{
+  "mcqQuestions": [
+    {
+      "id": "mcq-1",
+      "title": "Time Complexity Analysis",
+      "description": "What is the time complexity of the following code snippet?\n\n```javascript\nfor (let i = 0; i < n; i++) {\n    for (let j = 0; j < n; j++) {\n        console.log(i + j);\n    }\n}\n```",
+      "options": [
+        { "id": "a", "text": "O(n)", "isCorrect": false },
+        { "id": "b", "text": "O(n²)", "isCorrect": true },
+        { "id": "c", "text": "O(n log n)", "isCorrect": false },
+        { "id": "d", "text": "O(2^n)", "isCorrect": false }
+      ],
+      "explanation": "The nested loops each run n times, resulting in n × n = n² operations, giving us O(n²) time complexity.",
+      "difficulty": "Medium",
+      "points": 50,
+      "timeLimit": 120,
+      "category": "Algorithms",
+      "tags": ["Time Complexity", "Big O"],
+      "createdBy": "teacher-1",
+      "createdAt": "2024-01-10T00:00:00Z"
+    },
+    {
+      "id": "mcq-2",
+      "title": "Data Structure Properties",
+      "description": "Which data structure follows the Last In, First Out (LIFO) principle?",
+      "options": [
+        { "id": "a", "text": "Queue", "isCorrect": false },
+        { "id": "b", "text": "Stack", "isCorrect": true },
+        { "id": "c", "text": "Array", "isCorrect": false },
+        { "id": "d", "text": "Linked List", "isCorrect": false }
+      ],
+      "explanation": "A stack follows the LIFO principle where the last element added is the first one to be removed.",
+      "difficulty": "Easy",
+      "points": 25,
+      "timeLimit": 60,
+      "category": "Data Structures",
+      "tags": ["Stack", "LIFO"],
+      "createdBy": "teacher-1",
+      "createdAt": "2024-01-10T00:00:00Z"
+    },
+    {
+      "id": "mcq-3",
+      "title": "Object-Oriented Programming",
+      "description": "Which of the following is NOT a pillar of Object-Oriented Programming?",
+      "options": [
+        { "id": "a", "text": "Encapsulation", "isCorrect": false },
+        { "id": "b", "text": "Inheritance", "isCorrect": false },
+        { "id": "c", "text": "Polymorphism", "isCorrect": false },
+        { "id": "d", "text": "Compilation", "isCorrect": true }
+      ],
+      "explanation": "The four pillars of OOP are Encapsulation, Inheritance, Polymorphism, and Abstraction. Compilation is not a pillar of OOP.",
+      "difficulty": "Easy",
+      "points": 30,
+      "timeLimit": 90,
+      "category": "OOP",
+      "tags": ["OOP", "Concepts"],
+      "createdBy": "teacher-1",
+      "createdAt": "2024-01-11T00:00:00Z"
+    }
+  ]
+}

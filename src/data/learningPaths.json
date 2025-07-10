@@ -1,0 +1,116 @@
+{
+  "learningPaths": [
+    {
+      "id": "java-fundamentals",
+      "title": "Java Programming Fundamentals",
+      "description": "Master Java programming from basics to advanced concepts. Learn object-oriented programming, data structures, and build real-world applications.",
+      "difficulty": "Beginner",
+      "duration": "8 weeks",
+      "problems": 75,
+      "enrolled": 15847,
+      "rating": 4.9,
+      "category": "Programming Languages",
+      "tags": ["Java", "OOP", "Programming"],
+      "progress": 35,
+      "modules": [
+        {
+          "id": 1,
+          "title": "Java Basics & Syntax",
+          "description": "Learn Java fundamentals, variables, data types, and basic operations",
+          "problems": 15,
+          "completed": 15,
+          "duration": "1 week",
+          "topics": ["Variables", "Data Types", "Operators", "Control Structures"],
+          "prerequisites": [],
+          "learningObjectives": [
+            "Understand Java syntax and structure",
+            "Work with variables and data types",
+            "Use control flow statements"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Object-Oriented Programming",
+          "description": "Understand classes, objects, inheritance, and polymorphism",
+          "problems": 20,
+          "completed": 8,
+          "duration": "2 weeks",
+          "topics": ["Classes", "Objects", "Inheritance", "Polymorphism", "Encapsulation"],
+          "prerequisites": ["Java Basics & Syntax"],
+          "learningObjectives": [
+            "Create and use classes and objects",
+            "Implement inheritance and polymorphism",
+            "Apply encapsulation principles"
+          ]
+        }
+      ],
+      "prerequisites": ["Basic programming knowledge"],
+      "learningObjectives": [
+        "Master Java programming fundamentals",
+        "Understand object-oriented programming concepts",
+        "Build real-world Java applications"
+      ],
+      "certification": {
+        "available": true,
+        "requirements": ["Complete all modules", "Pass final assessment"],
+        "validityPeriod": "2 years"
+      }
+    },
+    {
+      "id": "python-fundamentals",
+      "title": "Python Programming Mastery",
+      "description": "Learn Python from scratch to advanced concepts. Master data science, web development, and automation with Python.",
+      "difficulty": "Beginner",
+      "duration": "10 weeks",
+      "problems": 95,
+      "enrolled": 23456,
+      "rating": 4.8,
+      "category": "Programming Languages",
+      "tags": ["Python", "Data Science", "Web Development"],
+      "progress": 42,
+      "modules": [
+        {
+          "id": 1,
+          "title": "Python Basics & Syntax",
+          "description": "Learn Python fundamentals, variables, data types, and control structures",
+          "problems": 20,
+          "completed": 20,
+          "duration": "1.5 weeks",
+          "topics": ["Variables", "Data Types", "Lists", "Dictionaries", "Control Flow"],
+          "prerequisites": [],
+          "learningObjectives": [
+            "Understand Python syntax",
+            "Work with data structures",
+            "Use control flow statements"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Functions & Modules",
+          "description": "Master functions, lambda expressions, and module creation",
+          "problems": 18,
+          "completed": 12,
+          "duration": "2 weeks",
+          "topics": ["Functions", "Lambda", "Modules", "Packages", "Decorators"],
+          "prerequisites": ["Python Basics & Syntax"],
+          "learningObjectives": [
+            "Create and use functions",
+            "Understand lambda expressions",
+            "Work with modules and packages"
+          ]
+        }
+      ],
+      "prerequisites": ["No prior programming experience required"],
+      "learningObjectives": [
+        "Master Python programming",
+        "Learn data science libraries",
+        "Build web applications"
+      ],
+      "certification": {
+        "available": true,
+        "requirements": ["Complete all modules", "Build a final project"],
+        "validityPeriod": "3 years"
+      }
+    }
+  ]
+}

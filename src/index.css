@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (max-width: 640px) {
+  .responsive-flex {
+    flex-direction: column !important;
+    gap: 1rem !important;
+  }
+  .responsive-hide {
+    display: none !important;
+  }
+  .responsive-full {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+}
+
+html {
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: rgba(0,0,0,0.1);
+}

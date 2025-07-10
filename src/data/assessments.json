@@ -1,0 +1,81 @@
+{
+  "assessments": [
+    {
+      "id": "assessment-1",
+      "title": "Data Structures Midterm Exam",
+      "description": "This midterm exam covers fundamental data structures including arrays, linked lists, stacks, queues, and basic tree operations. You will be tested on both theoretical concepts and practical implementation skills.",
+      "course": "CS 201 - Data Structures",
+      "instructor": "teacher-1",
+      "instructorName": "Dr. Sarah Wilson",
+      "dueDate": "2024-01-25T23:59:00Z",
+      "duration": 120,
+      "problems": ["prob-1", "prob-2"],
+      "mcqQuestions": ["mcq-1", "mcq-2"],
+      "theoryQuestions": ["theory-1"],
+      "maxScore": 275,
+      "status": "active",
+      "allowedLanguages": ["javascript", "python", "java", "cpp"],
+      "instructions": [
+        "Read all questions carefully before starting",
+        "You have 2 hours to complete all questions",
+        "Each question has different point values as indicated",
+        "You can save your progress and return later",
+        "Submit before the deadline to avoid late penalties",
+        "Academic integrity policies apply"
+      ],
+      "proctoring": {
+        "enabled": true,
+        "webcam": true,
+        "screenShare": true,
+        "lockdown": true,
+        "faceDetection": true
+      },
+      "grading": {
+        "autoGrade": true,
+        "showResults": false,
+        "partialCredit": true
+      },
+      "submissions": [],
+      "assignedTo": ["student-1", "student-2", "student-3"],
+      "createdAt": "2024-01-15T00:00:00Z",
+      "updatedAt": "2024-01-15T00:00:00Z"
+    },
+    {
+      "id": "assessment-2",
+      "title": "Algorithm Analysis Quiz",
+      "description": "Quick quiz on algorithm analysis and time complexity concepts.",
+      "course": "CS 301 - Advanced Algorithms",
+      "instructor": "teacher-1",
+      "instructorName": "Prof. David Lee",
+      "dueDate": "2024-01-30T18:00:00Z",
+      "duration": 60,
+      "problems": [],
+      "mcqQuestions": ["mcq-3"],
+      "theoryQuestions": ["theory-2"],
+      "maxScore": 105,
+      "status": "upcoming",
+      "allowedLanguages": ["javascript", "python", "java"],
+      "instructions": [
+        "This is a timed quiz",
+        "Answer all questions",
+        "No external resources allowed"
+      ],
+      "proctoring": {
+        "enabled": true,
+        "webcam": true,
+        "screenShare": false,
+        "lockdown": true,
+        "faceDetection": false
+      },
+      "grading": {
+        "autoGrade": true,
+        "showResults": true,
+        "partialCredit": false
+      },
+      "submissions": [],
+      "assignedTo": ["student-1", "student-2"],
+      "createdAt": "2024-01-14T00:00:00Z",
+      "updatedAt": "2024-01-14T00:00:00Z"
+    }
+  ]
+}
