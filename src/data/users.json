@@ -1,0 +1,82 @@
+{
+  "users": [
+    {
+      "id": "admin-1",
+      "username": "admin",
+      "email": "admin@academiccode.com",
+      "password": "password",
+      "role": "admin",
+      "rating": 0,
+      "rank": "Administrator",
+      "problemsSolved": 0,
+      "permissions": ["all"],
+      "lastActive": "2024-01-15T10:00:00Z",
+      "joinDate": "2024-01-01T00:00:00Z",
+      "isOnline": false
+    },
+    {
+      "id": "teacher-1",
+      "username": "teacher",
+      "email": "teacher@academiccode.com",
+      "password": "password",
+      "role": "teacher",
+      "rating": 0,
+      "rank": "Educator",
+      "problemsSolved": 0,
+      "department": "Computer Science",
+      "teacherId": "TCH001",
+      "permissions": ["create_tests", "grade_submissions", "view_students"],
+      "lastActive": "2024-01-15T09:30:00Z",
+      "joinDate": "2024-01-01T00:00:00Z",
+      "isOnline": false
+    },
+    {
+      "id": "student-1",
+      "username": "student",
+      "email": "student@academiccode.com",
+      "password": "password",
+      "role": "student",
+      "rating": 1847,
+      "rank": "Expert",
+      "problemsSolved": 156,
+      "department": "Computer Science",
+      "year": 3,
+      "enrollmentId": "CS2021001",
+      "lastActive": "2024-01-15T11:00:00Z",
+      "joinDate": "2024-01-01T00:00:00Z",
+      "isOnline": false
+    },
+    {
+      "id": "student-2",
+      "username": "alice_johnson",
+      "email": "alice@university.edu",
+      "password": "password123",
+      "role": "student",
+      "rating": 1650,
+      "rank": "Specialist",
+      "problemsSolved": 89,
+      "department": "Computer Science",
+      "year": 2,
+      "enrollmentId": "CS2022015",
+      "lastActive": "2024-01-15T10:45:00Z",
+      "joinDate": "2024-01-10T00:00:00Z",
+      "isOnline": true
+    },
+    {
+      "id": "student-3",
+      "username": "bob_smith",
+      "email": "bob@university.edu",
+      "password": "password123",
+      "role": "student",
+      "rating": 1420,
+      "rank": "Pupil",
+      "problemsSolved": 67,
+      "department": "Information Technology",
+      "year": 1,
+      "enrollmentId": "IT2023008",
+      "lastActive": "2024-01-15T09:15:00Z",
+      "joinDate": "2024-01-12T00:00:00Z",
+      "isOnline": false
+    }
+  ]
+}

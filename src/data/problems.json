@@ -1,0 +1,181 @@
+{
+  "problems": [
+    {
+      "id": "prob-1",
+      "title": "Two Sum",
+      "description": "Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.\n\nYou may assume that each input would have exactly one solution, and you may not use the same element twice.\n\nYou can return the answer in any order.",
+      "difficulty": "Easy",
+      "category": "Arrays",
+      "tags": ["Arrays", "Hash Table"],
+      "solved": false,
+      "acceptance": 85.2,
+      "likes": 1247,
+      "dislikes": 45,
+      "examples": [
+        {
+          "input": "nums = [2,7,11,15], target = 9",
+          "output": "[0,1]",
+          "explanation": "Because nums[0] + nums[1] == 9, we return [0, 1]."
+        },
+        {
+          "input": "nums = [3,2,4], target = 6",
+          "output": "[1,2]",
+          "explanation": "Because nums[1] + nums[2] == 6, we return [1, 2]."
+        }
+      ],
+      "constraints": [
+        "2 ≤ nums.length ≤ 10⁴",
+        "-10⁹ ≤ nums[i] ≤ 10⁹",
+        "-10⁹ ≤ target ≤ 10⁹",
+        "Only one valid answer exists."
+      ],
+      "starterCode": {
+        "javascript": "function twoSum(nums, target) {\n    // Your code here\n    \n}",
+        "python": "def two_sum(nums, target):\n    # Your code here\n    pass",
+        "java": "public int[] twoSum(int[] nums, int target) {\n    // Your code here\n    \n}",
+        "cpp": "#include <vector>\nusing namespace std;\n\nvector<int> twoSum(vector<int>& nums, int target) {\n    // Your code here\n    \n}",
+        "c": "#include <stdio.h>\n#include <stdlib.h>\n\nint* twoSum(int* nums, int numsSize, int target, int* returnSize) {\n    // Your code here\n    \n}"
+      },
+      "testCases": [
+        {
+          "input": "[2,7,11,15]\n9",
+          "expectedOutput": "[0,1]",
+          "isHidden": false
+        },
+        {
+          "input": "[3,2,4]\n6",
+          "expectedOutput": "[1,2]",
+          "isHidden": false
+        },
+        {
+          "input": "[3,3]\n6",
+          "expectedOutput": "[0,1]",
+          "isHidden": true
+        }
+      ],
+      "timeLimit": 1000,
+      "memoryLimit": 256,
+      "createdBy": "teacher-1",
+      "createdAt": "2024-01-10T00:00:00Z",
+      "updatedAt": "2024-01-10T00:00:00Z"
+    },
+    {
+      "id": "prob-2",
+      "title": "Valid Parentheses",
+      "description": "Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.\n\nAn input string is valid if:\n1. Open brackets must be closed by the same type of brackets.\n2. Open brackets must be closed in the correct order.\n3. Every close bracket has a corresponding open bracket of the same type.",
+      "difficulty": "Easy",
+      "category": "Stack",
+      "tags": ["String", "Stack"],
+      "solved": false,
+      "acceptance": 91.3,
+      "likes": 1834,
+      "dislikes": 23,
+      "examples": [
+        {
+          "input": "s = \"()\"",
+          "output": "true"
+        },
+        {
+          "input": "s = \"()[]{}\"",
+          "output": "true"
+        },
+        {
+          "input": "s = \"(]\"",
+          "output": "false"
+        }
+      ],
+      "constraints": [
+        "1 ≤ s.length ≤ 10⁴",
+        "s consists of parentheses only '()[]{}'."
+      ],
+      "starterCode": {
+        "javascript": "function isValid(s) {\n    // Your code here\n    \n}",
+        "python": "def is_valid(s):\n    # Your code here\n    pass",
+        "java": "public boolean isValid(String s) {\n    // Your code here\n    \n}",
+        "cpp": "#include <string>\nusing namespace std;\n\nbool isValid(string s) {\n    // Your code here\n    \n}",
+        "c": "#include <stdbool.h>\n\nbool isValid(char* s) {\n    // Your code here\n    \n}"
+      },
+      "testCases": [
+        {
+          "input": "()",
+          "expectedOutput": "true",
+          "isHidden": false
+        },
+        {
+          "input": "()[]{}",
+          "expectedOutput": "true",
+          "isHidden": false
+        },
+        {
+          "input": "(]",
+          "expectedOutput": "false",
+          "isHidden": true
+        }
+      ],
+      "timeLimit": 1000,
+      "memoryLimit": 256,
+      "createdBy": "teacher-1",
+      "createdAt": "2024-01-11T00:00:00Z",
+      "updatedAt": "2024-01-11T00:00:00Z"
+    },
+    {
+      "id": "prob-3",
+      "title": "Binary Tree Inorder Traversal",
+      "description": "Given the root of a binary tree, return the inorder traversal of its nodes' values.\n\nInorder traversal visits nodes in the order: left subtree, root, right subtree.",
+      "difficulty": "Medium",
+      "category": "Trees",
+      "tags": ["Tree", "DFS", "Binary Tree"],
+      "solved": false,
+      "acceptance": 67.8,
+      "likes": 892,
+      "dislikes": 34,
+      "examples": [
+        {
+          "input": "root = [1,null,2,3]",
+          "output": "[1,3,2]"
+        },
+        {
+          "input": "root = []",
+          "output": "[]"
+        },
+        {
+          "input": "root = [1]",
+          "output": "[1]"
+        }
+      ],
+      "constraints": [
+        "The number of nodes in the tree is in the range [0, 100].",
+        "-100 ≤ Node.val ≤ 100"
+      ],
+      "starterCode": {
+        "javascript": "function inorderTraversal(root) {\n    // Your code here\n    \n}",
+        "python": "def inorder_traversal(root):\n    # Your code here\n    pass",
+        "java": "public List<Integer> inorderTraversal(TreeNode root) {\n    // Your code here\n    \n}",
+        "cpp": "#include <vector>\nusing namespace std;\n\nvector<int> inorderTraversal(TreeNode* root) {\n    // Your code here\n    \n}",
+        "c": "int* inorderTraversal(struct TreeNode* root, int* returnSize) {\n    // Your code here\n    \n}"
+      },
+      "testCases": [
+        {
+          "input": "[1,null,2,3]",
+          "expectedOutput": "[1,3,2]",
+          "isHidden": false
+        },
+        {
+          "input": "[]",
+          "expectedOutput": "[]",
+          "isHidden": false
+        },
+        {
+          "input": "[1]",
+          "expectedOutput": "[1]",
+          "isHidden": true
+        }
+      ],
+      "timeLimit": 1000,
+      "memoryLimit": 256,
+      "createdBy": "teacher-1",
+      "createdAt": "2024-01-12T00:00:00Z",
+      "updatedAt": "2024-01-12T00:00:00Z"
+    }
+  ]
+}

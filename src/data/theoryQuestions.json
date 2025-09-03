@@ -1,0 +1,58 @@
+{
+  "theoryQuestions": [
+    {
+      "id": "theory-1",
+      "title": "Algorithm Design Principles",
+      "description": "Explain the divide and conquer algorithm design paradigm. Provide an example of a well-known algorithm that uses this approach and analyze its time complexity. Discuss the advantages and disadvantages of this approach.",
+      "maxWords": 300,
+      "timeLimit": 20,
+      "points": 100,
+      "difficulty": "Hard",
+      "category": "Algorithms",
+      "tags": ["Divide and Conquer", "Algorithm Design"],
+      "rubric": [
+        { "criteria": "Clear explanation of divide and conquer", "points": 40 },
+        { "criteria": "Relevant example with correct analysis", "points": 40 },
+        { "criteria": "Time complexity analysis", "points": 20 }
+      ],
+      "createdBy": "teacher-1",
+      "createdAt": "2024-01-10T00:00:00Z"
+    },
+    {
+      "id": "theory-2",
+      "title": "Object-Oriented Programming",
+      "description": "Compare and contrast inheritance and composition in object-oriented programming. When would you choose one over the other? Provide real-world examples to illustrate your points.",
+      "maxWords": 250,
+      "timeLimit": 15,
+      "points": 75,
+      "difficulty": "Medium",
+      "category": "OOP",
+      "tags": ["Inheritance", "Composition", "OOP"],
+      "rubric": [
+        { "criteria": "Clear explanation of both concepts", "points": 30 },
+        { "criteria": "Comparison with pros and cons", "points": 30 },
+        { "criteria": "Practical examples and use cases", "points": 15 }
+      ],
+      "createdBy": "teacher-1",
+      "createdAt": "2024-01-11T00:00:00Z"
+    },
+    {
+      "id": "theory-3",
+      "title": "Database Normalization",
+      "description": "Explain the concept of database normalization. Describe the first three normal forms (1NF, 2NF, 3NF) with examples. Why is normalization important in database design?",
+      "maxWords": 400,
+      "timeLimit": 25,
+      "points": 120,
+      "difficulty": "Hard",
+      "category": "Database",
+      "tags": ["Normalization", "Database Design"],
+      "rubric": [
+        { "criteria": "Definition and importance of normalization", "points": 30 },
+        { "criteria": "Explanation of 1NF, 2NF, 3NF", "points": 60 },
+        { "criteria": "Examples and practical application", "points": 30 }
+      ],
+      "createdBy": "teacher-1",
+      "createdAt": "2024-01-12T00:00:00Z"
+    }
+  ]
+}
