@@ -93,72 +93,70 @@ function AppContent() {
   }
 
   return (
-    <Router>
-      <div className="min-h-screen bg-gradient-to-br from-gray-50 via-blue-50 to-purple-50 dark:from-gray-900 dark:via-blue-900 dark:to-purple-900 transition-all duration-500">
-        <Navbar />
-        <main className="pt-16">
-          <Routes>
-            <Route path="/" element={<HomePage />} />
-            <Route path="/practice" element={<PracticeArena />} />
-            <Route path="/problems" element={<ProblemsPage />} />
-            <Route path="/problems/:id" element={<ProblemDetailPage />} />
-            <Route path="/contests" element={<ContestsPage />} />
-            <Route path="/leaderboard" element={<LeaderboardPage />} />
-            <Route path="/profile" element={
-              <ProtectedRoute>
-                <ProfilePage />
-              </ProtectedRoute>
-            } />
-            <Route path="/login" element={<LoginPage />} />
-            <Route path="/learning-paths" element={<LearningPathsPage />} />
-            <Route path="/learning-paths/:id" element={<LearningPathDetailPage />} />
-            <Route path="/learning-paths/java" element={<JavaLearningPath />} />
-            <Route path="/learning-paths/python" element={<PythonLearningPath />} />
-            <Route path="/admin" element={
-              <RoleProtectedRoute allowedRoles={['admin']}>
-                <AdminDashboard />
-              </RoleProtectedRoute>
-            } />
-            <Route path="/teacher" element={
-              <RoleProtectedRoute allowedRoles={['teacher']}>
-                <TeacherDashboard />
-              </RoleProtectedRoute>
-            } />
-            <Route path="/assessments" element={<AssessmentsPage />} />
-            <Route path="/assessments/:id" element={<AssessmentDetailPage />} />
-            <Route path="*" element={<NotFoundPage />} />
-          </Routes>
-        </main>
-        <Footer />
-        <Toaster 
-          position="top-right"
-          toastOptions={{
-            duration: 4000,
-            style: {
-              background: 'var(--toast-bg)',
-              color: 'var(--toast-color)',
-              borderRadius: '12px',
-              padding: '16px',
-              fontSize: '14px',
-              fontWeight: '500',
-              boxShadow: '0 10px 25px rgba(0, 0, 0, 0.1)',
+    <div className="min-h-screen bg-gradient-to-br from-gray-50 via-blue-50 to-purple-50 dark:from-gray-900 dark:via-blue-900 dark:to-purple-900 transition-all duration-500">
+      <Navbar />
+      <main className="pt-16">
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/practice" element={<PracticeArena />} />
+          <Route path="/problems" element={<ProblemsPage />} />
+          <Route path="/problems/:id" element={<ProblemDetailPage />} />
+          <Route path="/contests" element={<ContestsPage />} />
+          <Route path="/leaderboard" element={<LeaderboardPage />} />
+          <Route path="/profile" element={
+            <ProtectedRoute>
+              <ProfilePage />
+            </ProtectedRoute>
+          } />
+          <Route path="/login" element={<LoginPage />} />
+          <Route path="/learning-paths" element={<LearningPathsPage />} />
+          <Route path="/learning-paths/:id" element={<LearningPathDetailPage />} />
+          <Route path="/learning-paths/java" element={<JavaLearningPath />} />
+          <Route path="/learning-paths/python" element={<PythonLearningPath />} />
+          <Route path="/admin" element={
+            <RoleProtectedRoute allowedRoles={['admin']}>
+              <AdminDashboard />
+            </RoleProtectedRoute>
+          } />
+          <Route path="/teacher" element={
+            <RoleProtectedRoute allowedRoles={['teacher']}>
+              <TeacherDashboard />
+            </RoleProtectedRoute>
+          } />
+          <Route path="/assessments" element={<AssessmentsPage />} />
+          <Route path="/assessments/:id" element={<AssessmentDetailPage />} />
+          <Route path="*" element={<NotFoundPage />} />
+        </Routes>
+      </main>
+      <Footer />
+      <Toaster 
+        position="top-right"
+        toastOptions={{
+          duration: 4000,
+          style: {
+            background: 'var(--toast-bg)',
+            color: 'var(--toast-color)',
+            borderRadius: '12px',
+            padding: '16px',
+            fontSize: '14px',
+            fontWeight: '500',
+            boxShadow: '0 10px 25px rgba(0, 0, 0, 0.1)',
+          },
+          success: {
+            iconTheme: {
+              primary: '#10b981',
+              secondary: '#ffffff',
             },
-            success: {
-              iconTheme: {
-                primary: '#10b981',
-                secondary: '#ffffff',
-              },
+          },
+          error: {
+            iconTheme: {
+              primary: '#ef4444',
+              secondary: '#ffffff',
             },
-            error: {
-              iconTheme: {
-                primary: '#ef4444',
-                secondary: '#ffffff',
-              },
-            },
-          }}
-        />
-      </div>
-    </Router>
+          },
+        }}
+      />
+    </div>
   );
 }
 
